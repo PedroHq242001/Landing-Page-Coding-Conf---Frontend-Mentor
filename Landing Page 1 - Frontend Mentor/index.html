@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/src/css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/src/css/drag_and_drop.css">
+  <link rel="stylesheet" href="assets/src/css/form.css">
+  <link rel="stylesheet" href="assets/src/css/media_queries.css">
+  <title>Coding Conf Frontend Mentor</title>
+</head>
+<body>
+  <header>
+    <!-- logo -->
+     <div class="logo">
+      <i class="fa-solid fa-code"></i>
+      <h2>Coding Conf</h2>
+     </div>
+
+     <!-- title -->
+      <h1>Your journey to Coding Conf</h1>
+      <h1>2025 Starts Here!</h1>
+      <div class="header-subtitle">
+        <h6>Secure your spot at next year's biggest coding conference.</h6>
+      </div>
+  </header>
+
+  <!-- drag and drop -->
+   <div class="section-form-container">
+    <section>
+      <div class="drag-and-drop-container">
+        <h4 class="upload-avatar-title">Upload Avatar</h4>
+        <div class="drag-and-drop">
+          <div class="icon">
+            <i class="fa-solid fa-cloud"></i>
+          </div>
+          <h4 class="drag-and-drop-title">Drag and drop or click to upload</h4>
+        </div>
+      </div>
+      <div class="upload-info">
+        <div class="icon">
+          <i class="fa-solid fa-info"></i>
+        </div>
+        <p>Upload your photo (JPG or PNG, max size: 500kb).</p>
+      </div>
+    </section>
+    <!-- form -->
+   <form>
+    <label for="fullname">Full Name</label>
+    <input type="text" name="fullname" id="fullname">
+
+    <label for="email">Email Address</label>
+    <input type="email" name="email" id="email" placeholder="example@email.com">
+
+    <label for="github">Github Username</label>
+    <input type="text" name="github" id="github" placeholder="@yourusername">
+
+    <input type="submit" value="Generate My Ticket">
+   </form>
+  </div>
+</body>
+</html>

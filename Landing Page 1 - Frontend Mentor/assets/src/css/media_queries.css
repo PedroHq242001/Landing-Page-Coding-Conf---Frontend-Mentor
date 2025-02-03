@@ -1,0 +1,31 @@
+@media screen and (min-width: 463px) {
+  .drag-and-drop {
+    width: 27em;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1.2px;
+  }
+
+  .header-subtitle h6 {
+    width: 100%;
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+  }
+
+  form {
+    width: 27.25em;
+    align-self: center;
+  }
+
+  .drag-and-drop-container {
+    width: auto;
+  }
+
+
+}

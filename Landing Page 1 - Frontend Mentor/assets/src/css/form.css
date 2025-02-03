@@ -1,0 +1,35 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: .5em;
+}
+
+form input {
+  margin-bottom: 2em;
+  height: 3em;
+  box-sizing: border-box;
+  padding: 1em;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background-color: var(--input-color);
+  color: var(--default-color);
+}
+
+form input:not(input[type="submit"]):hover {
+  background-color: var(--input-hover-color);
+}
+
+input[type="submit"] {
+  background-color: rgb(228, 99, 90);
+  color: rgb(8, 8, 46);
+  font-size: 1.02rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(243, 144, 137);
+}

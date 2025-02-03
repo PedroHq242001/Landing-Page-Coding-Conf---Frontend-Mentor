@@ -1,0 +1,74 @@
+.drag-and-drop-container {
+  width: 100%;
+}
+
+.section-form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upload-avatar-title {
+  align-self: flex-start;
+}
+
+.drag-and-drop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed var(--border-color);
+  width: 100%;
+  padding: 1em 0;
+  border-radius: 8px;
+  background-color: var(--input-color);
+}
+
+.drag-and-drop:hover {
+  background-color: var(--input-hover-color);
+}
+
+.drag-and-drop .icon {
+  border: 2px solid var(--border-color);
+  border-radius: 5px;
+  padding: .5em;
+}
+
+.cloud {
+  font-size: 2rem;
+}
+
+.upload-info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 2em;
+}
+
+.upload-info .icon {
+  border: 1px solid var(--border-color);
+  width: 1.1em;
+  height: 1em;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-info i {
+  font-size: .7rem;
+}
+
+.upload-info p {
+  font-size: .9rem;
+}
+
+section h4 {
+  margin-top: 1em;
+}
