@@ -1,2 +1,1 @@
-# Landing-Page-Coding-Conf---Frontend-Mentor
-Um projeto prático do site Frontend Mentor 
+Este projeto prático foi feito no intuito de praticar minhas habilidades com CSS e HTML. A landing page foi baseada no exemplo dado pelo site Frontend Mentor. Ainda não há nenhuma funcionalidade de javascript, mas irei adicionar em um outro commit em breve.
